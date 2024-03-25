@@ -1,0 +1,74 @@
+body {
+  min-width: 320px;
+  max-width: 750px;
+  margin: 0 auto;
+  height: 1200px;
+  background-color: #f2f4f7;
+}
+a {
+  text-decoration: none;
+  color: #707070;
+}
+@media screen and (min-width: 750) {
+  html {
+    font-size: 37.5px !important;
+  }
+}
+.wrap {
+  background-color: #fff;
+  padding-bottom: 1.1467rem;
+}
+.header {
+  height: 2.1333rem;
+  border-bottom: 1px solid #eaeaea;
+  text-align: center;
+  line-height: 2.1333rem;
+  font-size: 0.9333rem;
+  color: #1c1c1c;
+}
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1.2rem 0 1.6rem 0;
+}
+.nav .item {
+  display: flex;
+  width: 33.33%;
+  flex-direction: column;
+  align-items: center;
+}
+.nav .item img {
+  width: 3.7067rem;
+  height: 3.7067rem;
+}
+.nav .item span {
+  font-size: 0.6667rem;
+  color: #707070;
+}
+.nav .item:nth-child(-n+3) {
+  margin-bottom: 1.6533rem;
+}
+.go {
+  margin: 0 0.3733rem 0 0.3733rem;
+}
+.content {
+  padding: 1.0667rem 0.64rem;
+  background-color: #fff;
+  margin-top: 0.2667rem;
+}
+.content .con-hd {
+  display: flex;
+  justify-content: space-between;
+  height: 1.0133rem;
+  line-height: 1.0133rem;
+  background-color: pink;
+}
+.content .con-hd h4 {
+  margin: 0;
+  font-size: 0.7467rem;
+  color: #333;
+}
+.content .con-hd .more {
+  font-size: 0.5867rem;
+  color: #999;
+}
